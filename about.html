@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - UMBRA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #1c1c1c;
+            color: white;
+            text-align: center;
+            padding-top: 60px;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            z-index: 1000;
+        }
+
+        nav .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: cyan;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .dragon-image {
+            width: 100%;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+
+        .info-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .info-box h2 {
+            color: cyan;
+        }
+
+        footer {
+            footer {
+    background-color: #f8f8f8;
+    padding: 50px 10%;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ddd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #000;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icons a img {
+    width: 20px;
+    height: 20px;
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.social-icons a:hover img {
+    filter: grayscale(0%);
+}
+
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">UMBRA</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>About the Dragon</h1>
+        <img src="dragon_main.jpg" alt="Dragon Image" class="dragon-image">
+
+        <div class="info-box">
+            <h2>Name: Shadowfang</h2>
+            <p>Shadowfang is a legendary dragon known for its mysterious aura and immense power.</p>
+        </div>
+
+        <div class="info-box">
+            <h2>Abilities</h2>
+            <p>🔥 Fire Breathing | ⚡ Lightning Speed | 🛡️ Invincible Scales</p>
+        </div>
+
+        <div class="info-box">
+            <h2>Origin</h2>
+            <p>Born from the ashes of the ancient Phoenix, Shadowfang rules the sky with unmatched might.</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="#">Dashboard</a></li>
+                        <li><a href="#">Marketplace</a></li>
+                        <li><a href="#">Hire Designers</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-column">
+                    <h3>Learn & Get Help</h3>
+                    <ul>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">University</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Ebooks</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Status</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Become an Affiliate</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-column">
+                    <h3>Terms & Policy</h3>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Cookie Preferences</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-column social">
+                    <h3>Social</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="icons/webflow.svg" alt="Webflow"></a>
+                        <a href="#"><img src="icons/youtube.svg" alt="YouTube"></a>
+                        <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
+                        <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
+                        <a href="#"><img src="icons/instagram.svg" alt="Instagram"></a>
+                        <a href="#"><img src="icons/tiktok.svg" alt="TikTok"></a>
+                        <p>&copy; 2025 UMBRA | Designed by Keshav Singh</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+       
+</body>
+</html>
